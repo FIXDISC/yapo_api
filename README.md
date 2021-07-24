@@ -1,12 +1,12 @@
 # YAPO_API
 
-Pre-requisitos
+##PRE-REQUISITOS
 - Git
 - Docker
 - Node JS
 - WIndows 10
 
-INSTALACION
+##INSTALACION
 
 1. Crear carpeta local que contendrá la aplicacion (Ej: C:\ACM_TEST)
 2. Dentro de ACM_TEST abrir consola de comandos y ejecutar :  
