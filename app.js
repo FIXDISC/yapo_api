@@ -1,5 +1,5 @@
 const express = require("express");
-const { pirndController } = require("./controllers/pirndController");
+const { pirndController } = require("./app/controllers/pirndController");
 const app = express();
 
 

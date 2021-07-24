@@ -7,7 +7,7 @@ exports.pirndController = function(req, res){
             return("Solo se permiten enteros");
         }else{
             if(val>15){
-                res.send("El maximo de decimales en JS es 15");
+                return("El maximo de decimales en JS es 15");
             }else{
                 num1 = Math.round(val/2);
                 num2 = val+1;
