@@ -1,4 +1,5 @@
 # YAPO_API
+![CAPTURA](img/Captura.PNG)
 
 ## PRE-REQUISITOS
 - Git
@@ -29,7 +30,7 @@ docker run -it -p 8000:8000 yapo_api
 7. La Api debe responder con mensaje:   
    PI (8): 3.14159265  (Donde 8 es el numero random de decimales) 
    F5 vuelve a generar decimales random.
-   ![CAPTURA](img/Captura.PNG)
+  
 
 ## TESTING
 Generar pruebas desde la linea de comandos :
