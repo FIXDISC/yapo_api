@@ -12,7 +12,7 @@
 ```sh
 C:\ACM_TEST> git clone https://github.com/FIXDISC/yapo_api.git
 ```
-3. Acceder a la carpeta del proyecto yapo_api e instalar dependencias:
+3. Acceder a la carpeta del proyecto yapo_heroes e instalar dependencias :
 ```sh
 cd C:\ACM_TEST\yapo_api\
 ```
@@ -25,10 +25,13 @@ C:\ACM_TEST\yapo_api> docker build -t yapo_api .
 ```
 5. Desplegar la imagen con el proyecto:
 ```sh
-docker run -it -p 8000:8000 yapo_api
+C:\ACM_TEST\yapo_api> docker run -it -p 8000:8000 yapo_heroes
 ```
-6. Navegar en el browser a la direccion:  
-   http://localhost:8000/pi/?random_limit=10
+6. Iniciar el proyecto y navegar en el browser a la url (http://localhost:8000/pi/?random_limit=10): 
+```sh
+C:\ACM_TEST\yapo_api> npm start
+```  
+http://localhost:8000/pi/?random_limit=10
    
 7. La Api debe responder con mensaje:   
    PI (8): 3.14159265  (Donde 8 es el numero random de decimales)   
