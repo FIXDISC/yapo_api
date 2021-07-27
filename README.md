@@ -27,3 +27,9 @@ docker run -it -p 8000:8000 yapo_api
    http://localhost:8000/pi/?random_limit=10
 7. La Api debe responder con mensaje:   
    PI (8): 3.14159265  (Donde 8 es el numero random de decimales) 
+
+## TESTING
+Generar pruebas desde la linea de comandos :
+```sh
+C:\ACM_TEST\yapo_api> npm test
+```

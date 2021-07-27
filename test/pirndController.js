@@ -5,7 +5,7 @@ var request = request("http://localhost:8000")
 
 describe("PI Random decimales", function() {
         it('NO SE PERMITEN CARACTERES', function(done){
-            request.get('/pi/?random_limit=aaaaaa')
+            request.get('/pi/?random_limit=aa//aaaa')
             .end(function(err, res) {
                 if (err) return done(err);
                 expect(res.text).to.equal('Debe ingresar un numero', done)
