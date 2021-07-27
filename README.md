@@ -12,9 +12,12 @@
 ```sh
 C:\ACM_TEST> git clone https://github.com/FIXDISC/yapo_api.git
 ```
-3. Acceder a la carpeta del proyecto yapo_api :
+3. Acceder a la carpeta del proyecto yapo_api e instalar dependencias:
 ```sh
 cd C:\ACM_TEST\yapo_api\
+```
+```sh
+C:\ACM_TEST\yapo_api> npm install
 ```
 4. Generar el contenedor :
 ```sh
