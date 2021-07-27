@@ -29,11 +29,11 @@ docker run -it -p 8000:8000 yapo_api
 7. La Api debe responder con mensaje:   
    PI (8): 3.14159265  (Donde 8 es el numero random de decimales) 
    F5 vuelve a generar decimales random.
-   ![CAPTURA](https://github.com/FIXDISC/yapo_api/tree/main/img/Captura.PNG)
+   ![CAPTURA](img/Captura.PNG)
 
 ## TESTING
 Generar pruebas desde la linea de comandos :
 ```sh
 C:\ACM_TEST\yapo_api> npm test
 ```
-![TEST](https://github.com/FIXDISC/yapo_api/tree/main/img/test.PNG)
+![TEST](img/test.PNG)
